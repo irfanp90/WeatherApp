@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkslategray;
+  text-align: center;
+  margin: auto
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.data{
+  background-color: lightgreen;
+  color: black;
+  font-family: "Oswald" , sans-serif;
+   font-size: 20px;
+}
+
+.info{
+  color: darkgreen;
+  font-weight: bold;
+  font-family: "Oswald" , sans-serif;
+  font-size: 24px;
 }
