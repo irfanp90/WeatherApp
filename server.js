@@ -9,7 +9,7 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-app.use('/', express.static('public/public'));
+app.use(express.static('public'));
 
 // Start the API server
 app.listen(PORT, function() {
